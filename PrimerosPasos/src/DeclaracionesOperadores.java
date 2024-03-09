@@ -4,15 +4,13 @@ public class DeclaracionesOperadores {
 	public static void main(String[] args) {
 		
 
-		int a =5; 
+		final double aPulgadas=2.54;
 		
-		int b ;
+		double cm = 6;
 		
-		b = 7;
+		double resultado= cm /aPulgadas;
 		
-		int c = b / a; 
-		//c-=6;
-		System.out.println(c);
+		System.out.println("En "+ cm + " cm hay "+ resultado + " pulgadas ");
 		
 	}
 
