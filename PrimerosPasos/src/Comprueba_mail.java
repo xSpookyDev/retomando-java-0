@@ -4,16 +4,21 @@ public class Comprueba_mail {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-			boolean arroba =false;
+			int arroba =0;
+			boolean punto = false;
 			
 			String mail = JOptionPane.showInputDialog("Introduce email");
 			
 			for(int i = 0; i<mail.length(); i++) {
 				if(mail.charAt(i)=='@') {
-					arroba = true;
+					arroba++;
+				}
+				
+				if(mail.charAt(i)=='.') {
+					punto=true;
 				}
 			}
-			if(arroba==true) {
+			if(arroba==1 ) {
 				System.out.println("Es correcto");
 			}
 			else {
