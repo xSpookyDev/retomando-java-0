@@ -37,7 +37,8 @@ public class Areas {
 			break;
 			default:
 				System.out.println("La opcion no es correcta");
-			
+				 
+			//corregido el error de areas
 		}
 	}
 
