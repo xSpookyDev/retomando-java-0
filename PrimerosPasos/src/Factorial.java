@@ -14,6 +14,9 @@ public class Factorial {
 		}
 		
 		System.out.println("El factorial de "+ numero + " es: "+ resultado);
+		
+		//numeros factoriales
+		
 	}
 
 }
